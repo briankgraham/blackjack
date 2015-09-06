@@ -1,3 +1,16 @@
+body {
+	background-image: url('../img/SPACECAT.jpg');
+	color: #fff;
+}
+
+.container {
+	padding-top: 250px;
+}
+
+.messages{
+	font-size: 24px;
+}
+
 .card {
   float: left;
   border: solid 1px black;
@@ -5,17 +18,22 @@
   border-radius: 5px;
   height: 169px;
   margin-right: 20px;
-}
-
-.card img {
-	height: 167px;
-	width: 120px;
-}
-
-.covered {
-  background-color: black;
+  box-shadow: 0 0 25px rgba(255, 105, 180, .9);
 }
 
 .hand {
   overflow: auto;
 }
+
+.btn-success {
+	background-color: #39FF14;
+}
+
+.hit-button:hover, .stand-button:hover {
+	background-color: rgba(255, 105, 180, .9);
+	border-color: rgba(255, 105, 180, .9);;
+}
+
+
+
+

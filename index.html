@@ -1,11 +1,21 @@
 <html>
   <head>
     <title>Blackjack</title>
-    <link href="styles/app.css" rel="stylesheet" type="text/css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="styles/app.css" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 whatever">
+          <!-- <h2 class="text-center">Enter yo' name hurrr:</h2> -->
+<!--             <input class = 'form-control' type = 'text' placeholder="enter yo' name"name="spacecat"> -->
+
+        </div>
+      </div>
+      
+      <div class="messages"></div>
+    </div>
     <script src="lib/jquery.js"></script>
     <script src="lib/underscore.js"></script>
     <script src="lib/backbone.js"></script>
@@ -17,6 +27,7 @@
 
     <script src="compiled/src/views/CardView.js"></script>
     <script src="compiled/src/views/HandView.js"></script>
+    <script src="compiled/src/views/InputView.js"></script>
     <script src="compiled/src/views/AppView.js"></script>
 
     <script src="compiled/src/main.js"></script>
